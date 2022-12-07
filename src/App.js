@@ -7,40 +7,41 @@ import Login from './component/Pages/Login';
 import Signup from './component/Pages/SignUp';
 import Footer from './component/Website/Footer';
 import HeaderComponent from './component/Website/Header';
+import './App.css'
 function App() {
 
   const routes = useRoutes([
     {
-      path:'/',
-      element: <Home/>
+      path: '/',
+      element: <Home />
     },
     {
-      path:'/home',
-      element: <Home/>
+      path: '/home',
+      element: <Home />
     },
     {
-      path:'/about',
-      element: <About/>
+      path: '/about',
+      element: <About />
     },
     {
-      path:'/login',
-      element: <Login/>
+      path: '/login',
+      element: <Login />
     },
     {
-      path:'/signun',
-      element: <Signup/>
+      path: '/signup',
+      element: <Signup />
     },
 
   ])
 
   return (
-   
+
     <React.Fragment>
-      <HeaderComponent/>
-     <div className='main-body'>
-      {routes}
-     </div>
-     <Footer/>
+      <HeaderComponent />
+      <div className='main-body'>
+        {routes}
+      </div>
+      <Footer />
     </React.Fragment>
 
   );

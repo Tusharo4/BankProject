@@ -1,0 +1,46 @@
+.vision {
+    width: 30em;
+    height: fit-content;
+    color: rgb(38, 51, 63);
+    font-size: 1.2em;
+    margin-left: 2em;
+}
+
+h1 {
+    text-align: center;
+    font-style: oblique;
+    margin-bottom: 1.5em;
+}
+
+.Vision_Statement {
+    margin-top: 2em;
+}
+
+.mid {
+    width: 100%;
+
+}
+
+.ceo {
+    height: 30em;
+    width: 60em;
+    margin-left: 3em;
+    border-radius: 5%;
+}
+
+.service {
+    display: flex;
+    margin: 3em;
+}
+
+.service-img {
+    flex-direction: column;
+    flex-grow: 1;
+    width: 30em;
+    height: 25em;
+    margin: 1em;
+}
+
+.service-img img {
+    height: 18em;
+}

@@ -1,8 +1,11 @@
+import { Footer } from 'antd/es/layout/layout'
 import React from 'react'
-
+import '../Header/index.css'
 function FooterComponent() {
   return (
-    <div className='footer'>This is footer</div>
+    <Footer>
+      This is footer
+    </Footer>
   )
 }
 
